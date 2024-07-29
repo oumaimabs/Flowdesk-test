@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",               // Or any version compatible with your Node.js
+      "module": "commonjs",          // Ensure you use commonjs if you're targeting Node.js
+      "outDir": "./dist",            // Directory to output the compiled JavaScript files
+      "rootDir": "./src",            // Directory of your TypeScript source files
+      "strict": true,                // Enable all strict type-checking options
+      "esModuleInterop": true,       // For better compatibility with CommonJS modules
+      "skipLibCheck": true           // Skip type checking of declaration files
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
