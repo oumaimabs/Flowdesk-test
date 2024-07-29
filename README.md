@@ -25,11 +25,11 @@ Features
 
 ********Install Dependencies:
 
-npm install
+    npm install
 
 ********Configure Environment Variables:
 
-    Create a .env file and add necessary configurations for exchange APIs.
+Create a .env file and add necessary configurations for exchange APIs.
 
 ********Run the Application:
 
